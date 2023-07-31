@@ -31,7 +31,7 @@ select {
     height: 52.8px;
     border-radius: 8px;
     border: 1px solid #F8F9FA;
-
+margin-top: 25px
 };
 
 .btn {
@@ -45,11 +45,12 @@ select {
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
+    margin-top: 10px
+  
 };
 
 .infos {
     font-family: var(--font-primary);
     font-size: 0.75rem;
-    line-height: 22px;
-
+margin-top: 25px
 };
