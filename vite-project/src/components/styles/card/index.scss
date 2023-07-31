@@ -1,0 +1,65 @@
+.cardSec {
+
+    width: 560px;
+    height: 80px;
+    position: relative;
+    left: 700px;
+    bottom: 480px;
+    background-color: #F8F9FA;
+
+
+}
+
+;
+
+
+
+h3 {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 1rem;
+
+
+    position: relative;
+    left: 700px;
+    bottom: 500px;
+
+
+
+}
+
+;
+
+
+
+
+.resume {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+;
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+;
+
+.delete {
+
+    width: 49px;
+    height: 19px;
+    background-color: #E9ECEF;
+    ;
+    border: 1px solid #E9ECEF;
+    cursor: pointer;
+
+}
+
+;

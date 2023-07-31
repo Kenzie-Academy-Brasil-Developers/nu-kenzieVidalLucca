@@ -1,0 +1,55 @@
+.formPart {
+
+    width: 355px;
+    height: 434px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    border: 1px solid #c7d9ea;
+    border-radius: 3px;
+    position: relative;
+    left: 300px;
+    top: 20px;
+
+};
+
+input {
+    background-color: #F8F9FA;
+    color: #868E96;
+    width: 314px;
+    height: 52.8px;
+    border-radius: 8px;
+    border: 1px solid #F8F9FA;
+
+};
+
+select {
+    background-color: #F8F9FA;
+    color: #868E96;
+    width: 314px;
+    height: 52.8px;
+    border-radius: 8px;
+    border: 1px solid #F8F9FA;
+
+};
+
+.btn {
+    background-color: var(--color-primary);
+    width: 314px;
+    height: 48px;
+    color: #FFFFFF;
+    border-color: var(--color-primary);
+    border-radius: 5px;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+};
+
+.infos {
+    font-family: var(--font-primary);
+    font-size: 0.75rem;
+    line-height: 22px;
+
+};
