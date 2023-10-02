@@ -36,7 +36,7 @@ export const Form = ({setList}) => {
                 <span className="infos">Tipo de valor</span>
                 <select name="" id="inputValue" value={selectedOption} onChange={(event) => setSelectedOption(event.target.value)}>
     <option value="option1">Entrada</option>
-    <option value="option2">Saída</option>
+    <option value="option2">Despesa</option>
 </select>
                 <button type="submit" className="btn" >Inserir Valor</button>
             </form>

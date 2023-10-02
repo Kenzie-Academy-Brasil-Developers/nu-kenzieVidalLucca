@@ -16,7 +16,7 @@ export const Card = ({ list, setList }) => {
           ) : (
             list.map(({ title, value, selectedOption }, index) => (
               <li key={index}>
-                <div className={`card ${selectedOption === "option1" ? "greenBorder" : "grayBorder"}`}>
+                <div className={`card ${selectedOption === "option1" ? "greenBorder" : "redBorder"}`}>
                   <div className="resume">
                     <h4 className="showTitle">{title}</h4>
                     <p className="showValue">{"R$ " + value.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</p>
